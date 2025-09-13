@@ -1,0 +1,29 @@
+.estica a {
+    transition: 0.3s ease; /* comando utiçizado para suavizar a transição do botão */
+
+}
+.estica a:hover {
+    background:rgba(6, 114, 98, 0.666); /* muda a cor do botão ao passar o mouse */
+    transform: scale(1.1); /* aumenta o tamanho ao passar o mouse */
+}
+
+header { /* padrão do cabeçalho */
+    background-color:rgba(5, 105, 90, 0.857); height: 60px; /* este comando define uma cor padrão para o cabeçalho */
+}
+h1 {
+    color: rgb(253, 248, 246); text-align: center /* define a cor e o alinhamento dos titúlos */
+}
+body {
+    background-color:rgb(30, 149, 133) /* cor padrão para o fundo */
+}
+footer { /* padrão do footer */
+    bottom: 0; /* move o footer para o final da página (se a pagina estiver sem informação ele não fica automaticamente no final) */
+position: fixed; /* mantem a posição sempre fixa */
+width: 100%; /* ajusta a largura */
+text-align: center; /* alinhamento central */
+height: 150px; /* ajusta a altura */
+background-color:rgba(218, 205, 200, 0.909) ; /* cor padrão dos footers */
+}
+nav { /* menu de navegação */
+    background-color: rgba(5, 105, 90, 0.857); /* cor padrão do menu */
+}
